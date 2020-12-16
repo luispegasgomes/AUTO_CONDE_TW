@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1200px;
+    font-size: 20px;        /* Tamanho e cor menu 2. */   
+    font-family: monospace;
+    color: #000000;
+    position: absolute;
+}
+#logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: -31px;
+}
+#pesquisa {
+    width: 600px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    right: 90px;
+    margin: auto;
+    margin-top: 20px;
+}
+#search{
+    background-color: blue; 
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: 620px;
+    right: 0;
+
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 33px;
+    background: #e98a0f;
+}
+a:link,
+a:visited {
+    color: #000000;             /*Cor letras menu 2*/
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    margin-top: 60px;  /* Posição do menu perante o logo. */
+}
+
+.menu > li {
+    display: inline;
+    margin-right: 30px;     /* Espaçamento entre menu das peças. */
+}
+
+.menu > li:last-of-type {
+    margin-right: 0;
+}
+
+.features-menu {
+    display: flex;
+    flex-direction: column;
+    background: #000000;
+    border-radius: 0px;
+    padding-top: 0px;
+}
+
+.features-menu li {
+    list-style: none;
+    border-bottom: 1px solid rgb(219, 182, 79);    /*Submenu2*/
+    padding: 0 0px 0px 0px;
+    margin: 10px;
+}
+  
+.features-menu li:last-of-type {
+    border-bottom: none;
+}
+
+.features-menu {
+    display: flex;
+    flex-direction: column;
+    background: #e98a0f;
+    border-radius: 10px;
+    padding-top: 0px;
+    box-sizing: content-box;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.dropdown {
+    position: relative;
+    left: -490px;            /*Posição menu 2.*/
+    right: auto;
+  }
+
+.dropdown > span {
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown:hover .features-menu {
+    display: flex;
+    flex-direction: column;
+    background: #e98a0f;
+
+}
+
+.features-menu {
+    display: none;
+}
+#login{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 1500px;
+    right: 0px;
+    font-size: 15px;
+    top: -30px;
+}
+#register{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 1460px;
+    font-size: 15px;
+    top: -30px;
+}
+#ajuda{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 1510px;
+    font-size: 15px;
+    top: -30px;
+}
+#contactos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 1310px;
+    font-size: 15px;
+    top: -30px;
+}
+#carrinho{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 760px;
+
+}
+#ncliente{
+    height: 60px;
+    width: 180px;
+    position: relative;
+    left: -350px;
+}
+  
+
+
