@@ -11,6 +11,10 @@ body {
     color: #000000;
     position: absolute;
 }
+.container{
+    height: 100%;
+    width: 50%;
+}
 #logo {
     position: absolute;
     left: 0;
