@@ -13,8 +13,8 @@ body {
     position: absolute;
 }
 .container{
-    height: 1200px;
-    width: 768px;
+    height: 100%;
+    width: 100%;
 }
 #logo {
     position: absolute;
