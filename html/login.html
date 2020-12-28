@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto Conde</title>
-    <link rel="stylesheet" href="loginstyle.css">
+    <link rel="stylesheet" href="../css/loginstyle.css">
 </head>
-<body background="/img/wallpaper_login.jpg">
-    <form method="POST" action="action_page.php" id='log'>
-        <fieldset> <legend>Login </legend>
-            <div>
-                <label for="username">username:</label>
+
+<body background="../img/wall1.jpg">
+    <div id="area">
+        <a href="autoconde.html">
+            <img src="../img/Auto_Conde.png" id="logo">
+        </a>
+
+        <form id="log" method="POST" action="action_page.php">
+            <br><br>
+            <label for="conta" id="conta">A MINHA CONTA</label>
+            <br><br>
+            <label for="ch" id="ch">CLIENTES HABITUAIS</label>
+            <br><br>
+            <div class="user">
+                <label for="username">E-mail:</label>
                 <input type="text" name="username" id="username" size="15">
             </div>
-            <div>
-                <label for="pw">password:</label>
+            <br>
+            <div class="pass">
+                <label for="pw">Palavra-passe:</label>
                 <input type="password" name="pw" id="pw" size="15">
             </div>
             <br>
-            <input type="submit" value="Login">
-        </fieldset>    
-    </form>
-    
+            <input type="submit" value="INICIAR SESSÃO" id="button">
+            <br><br>
+            <label for="nc" id="nc">NOVOS CLIENTES</label>
+            <input type="submit" value="CRIAR UMA CONTA  AGORA " id="button2">
+            <img src="../img/fb.png" id="fb">
+            <img src="../img/insta.png" id="insta">
+            <img src="../img/twt.png" id="twt">
+        </form>
+    </div>
+
 </body>
+
 </html>
