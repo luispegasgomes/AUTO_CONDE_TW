@@ -1,45 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto Conde</title>
+    <link rel="stylesheet" href="../css/registostyle.css">
 </head>
-<body>
-    <form  method="POST" action="action_page.php"></form>
-        <fieldset> <legend>registration form</legend>
-  
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" name="email">
+
+<body background="../img/wall1.jpg">
+    <div id="area">
+        <a href="autoconde.html">
+            <img src="../img/Auto_Conde.png" id="logo">
+        </a>
+
+        <form id="log" method="POST" action="action_page.php">
+            <br><br>
+            <label for="conta" id="conta">CRIAR CONTA</label>
+            <br><br>
+            <div class="name">
+                <label for="name1" id="name1">Nome:</label>
+                <input type="text" name="iname" id="iname">
             </div>
-            <div>
-                <label for="username">username:</label>
-                <input type="text" name="username" id="username" size="15">
+            <div class="apelido">
+                <label for="apelido1" id="apelido1">Apelido:</label>
+                <input type="text" name="iname" id="iname">
             </div>
-            <div>
-                <label for="pw">password:</label>
-                <input type="password" name="pw" id="pw" size="15">
+            <br><br>
+            <label for="genero" id=genero>Género </label>
+            <div class="radio">
+                <label for="male">Masculino</label>
+                <input type="radio" name="sex" value="male">
+                <label for="female">Feminino</label>
+                <input type="radio" name="sex" value="female">
             </div>
-            <div><label for="pw">confirm password:</label>
-                <input type="password" name="pw" id="pw" size="15">
-            </div>
-            <div>
-                Gender:
-                <label for="male">Male</label>
-                <input type="radio" name="sex" id="male" value="male">
-                <label for="female">Female</label>
-                <input type="radio" name="sex" id="female" value="female">
-            </div>
-            <div>
-                Age:
-                <input type="number" name="age" min="0"> 
+            <div class="user">
+                <label for="username">E-mail:</label>
+                <input type="text" name="username" id="username" size="20">
             </div>
             <br>
-            Click to accept our terms <input type="checkbox" name="terms" value="accept"><br>
-            <input type="submit" value="register"> <input type="reset" value="reset">
-             
-        </fieldset>
-    </form>
+            <div class="confema">
+                <label for="ce">Confirmar e-mail:</label>
+                <input type="email" name="ce" id="ce" size="15">
+            </div>
+            <div class="pass">
+                <label for="pw">Password:</label>
+                <input type="password" name="pw" id="pw" size="15">
+
+            </div>
+            <div class="confpass">
+                <label for="cpw">Confirmar Password:</label>
+                <input type="password" name="cpw" id="cpw" size="15">
+
+            </div>
+            <br>
+            <br><br>
+            <input type="submit" value="CRIAR CONTA" id="button2">
+            <img src="../img/fb.png" id="fb">
+            <img src="../img/insta.png" id="insta">
+            <img src="../img/twt.png" id="twt">
+        </form>
+    </div>
+
 </body>
+
 </html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Conde</title>
+    <link rel="stylesheet" href="../css/registostyle.css">
+</head>
+<body background="../img/wall1.jpg">
+    <form  method="POST" action="action_page.php"></form>
+        <fieldset> <legend>registration form</legend>
+  
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email">
+            </div>
+            <div>
+                <label for="username">username:</label>
+                <input type="text" name="username" id="username" size="15">
+            </div>
+            <div>
+                <label for="pw">password:</label>
+                <input type="password" name="pw" id="pw" size="15">
+            </div>
+            <div><label for="pw">confirm password:</label>
+                <input type="password" name="pw" id="pw" size="15">
+            </div>
+            <div>
+                Gender:
+                <label for="male">Male</label>
+                <input type="radio" name="sex" id="male" value="male">
+                <label for="female">Female</label>
+                <input type="radio" name="sex" id="female" value="female">
+            </div>
+            <div>
+                Age:
+                <input type="number" name="age" min="0"> 
+            </div>
+            <br>
+            Click to accept our terms <input type="checkbox" name="terms" value="accept"><br>
+            <input type="submit" value="register"> <input type="reset" value="reset">
+             
+        </fieldset>
+    </form>
+</body>
+</html>

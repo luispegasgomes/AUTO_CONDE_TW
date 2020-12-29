@@ -1,0 +1,123 @@
+#area
+{
+  position:relative;
+  margin: auto;
+  width: 500px;
+  height:700px;
+  left: 600px;
+  top: 90px;
+  background-color:#e98a0f ;
+  border-radius: 20px;
+}
+#logo {
+    height: 60px;
+    width: 250px;
+    position: fixed;
+    left: 1430px;
+    right: 100px;
+    top: 110px;
+    bottom: 0px;
+
+}
+#log{
+    width: 300px;
+    height:90px;
+    position: fixed;
+    top: 180px;
+    margin: center;
+    left: 1470px;
+
+}
+#conta{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    margin-top: auto;
+    font-weight: bold;
+    font-size: 25px;
+    left: -20px;
+}
+.user{
+    font-family: cursive;
+    position: relative;
+    top: 20px;
+    left: -150px;
+}
+.confema{
+    font-family: cursive;
+    position: relative;
+    top: -20px;
+    left: 60px;
+}
+.name{
+    font-family: cursive;
+    position: relative;
+    top: 20px;
+    left: -150px;
+}
+.apelido{
+    font-family: cursive;
+    position: relative;
+    top: -40px;
+    left: -150px;
+}
+.pass{
+    font-family: cursive;
+    position: relative;
+    top: -10px;
+    left: -151px;
+}
+.confpass{
+    font-family: cursive;
+    position: relative;
+    top: -3px;
+    left: -151px;
+}
+#button{
+    position: fixed;
+    left: 1460px;
+    top: 370px;
+    width: 200px;
+    height: 25px;
+    background-color: black;
+    color: blanchedalmond;
+}
+#button2{
+    position: fixed;
+    left: 1430px;
+    top: 500px;
+    width: 280px;
+    height: 25px;
+    background-color: black;
+    color: blanchedalmond;
+}
+#fb{
+    height: 60px;
+    position: relative;
+    top: 170px;
+    left: -180px;
+}
+#insta{
+    height: 80px;
+    position: relative;
+    top: 180px;
+    left: -160px;
+
+}
+#twt{
+    height: 60px;
+    position: relative;
+    top: 105px;
+    left: 150px;
+
+}
+#genero{
+    font-family: cursive;
+    position: relative;
+    top: -50px;
+    left: -151px;
+
+}
+.radio{
+    top: px;
+    left: -800px;
+}
