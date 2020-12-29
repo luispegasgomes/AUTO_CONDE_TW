@@ -23,9 +23,9 @@
     width: 300px;
     height:90px;
     position: fixed;
-    top: 180px;
+    top: 150px;
     margin: center;
-    left: 1470px;
+    left: 1480px;
 
 }
 #conta{
@@ -39,52 +39,44 @@
 .user{
     font-family: cursive;
     position: relative;
-    top: 20px;
+    top: -45px;
     left: -150px;
 }
 .confema{
     font-family: cursive;
     position: relative;
-    top: -20px;
-    left: 60px;
+    top: -50px;
+    left: -150px;
 }
 .name{
     font-family: cursive;
     position: relative;
-    top: 20px;
+    top: -15px;
     left: -150px;
 }
 .apelido{
     font-family: cursive;
     position: relative;
-    top: -40px;
+    top: -5px;
     left: -150px;
 }
 .pass{
     font-family: cursive;
     position: relative;
-    top: -10px;
-    left: -151px;
+    top: -40px;
+    left: -150px;
 }
 .confpass{
     font-family: cursive;
     position: relative;
-    top: -3px;
-    left: -151px;
+    top: -30px;
+    left: -150px;
 }
-#button{
-    position: fixed;
-    left: 1460px;
-    top: 370px;
-    width: 200px;
-    height: 25px;
-    background-color: black;
-    color: blanchedalmond;
-}
+
 #button2{
     position: fixed;
     left: 1430px;
-    top: 500px;
+    top: 550px;
     width: 280px;
     height: 25px;
     background-color: black;
@@ -93,31 +85,51 @@
 #fb{
     height: 60px;
     position: relative;
-    top: 170px;
-    left: -180px;
+    top: 30px;
+    left: -90px;
 }
 #insta{
     height: 80px;
     position: relative;
-    top: 180px;
-    left: -160px;
+    top: 40px;
+    left: -20px;
 
 }
 #twt{
     height: 60px;
     position: relative;
-    top: 105px;
-    left: 150px;
+    top: 35px;
+    left: 40px;
 
 }
 #genero{
     font-family: cursive;
     position: relative;
-    top: -50px;
-    left: -151px;
+    top: -30px;
+    left: -150px;
 
 }
-.radio{
-    top: px;
-    left: -800px;
+.gender{
+    font-family: cursive;
+    position: relative;
+    top: -52px;
+    left: -80px;
+}
+#bday{
+    font-family: cursive;
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+#textobday{
+    font-family: cursive;
+    position: relative;
+    top: -35px;
+    left: -150px;
+}
+.terms{
+    font-family: cursive;
+    position: relative;
+    top: -20px;
+    left: -150px;
 }
