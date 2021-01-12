@@ -125,3 +125,9 @@ a:hover {
 .features-menu {
     display: none;
 }
+.barra_adicional{
+    position: absolute;
+    top: 0px;
+    left: 1620px;
+
+}
