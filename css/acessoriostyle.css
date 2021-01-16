@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: static;
+    width: 100%;
+    display: flex;
+    padding: 33px;   /* Altura da navbar */
+    background: #e98a0f;
+    justify-content: center;
+
+}
+#logo{
+    position: absolute;
+    display: flex;
+    top: 0px;
+    left: 850px;
+    justify-content: center;
+    
+}
+#carrinho{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    left: 1000px;
+}
+#ncliente{
+    height: 60px;
+    width: 180px;
+    position: relative;
+    left: -180px;
+}
+#pesquisa {
+    width: 600px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    right: 90px;
+    margin: auto;
+    margin-top: 20px;
+}
+#search{
+    background-color: blue; 
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: 620px;
+    right: 0;
+    margin: auto;
+    margin-top: 20px;
+
+}
+a:link,
+a:visited {
+    color: #000000;             /*Cor letras menu 2*/
+    text-decoration: none;
+    font-family: cursive;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    margin-top: 60px;  /* Posição do menu perante o logo. */
+    font-family: cursive;
+    font-size: large;
+}
+
+.menu > li {
+    display: inline;
+    margin-right: 50px;     /* Espaçamento entre menu das peças. */
+}
+
+.features-menu {
+    background: #000000;
+    border-radius: 0px;
+    padding-top: 0px;
+}
+
+.features-menu li {
+    list-style: none;
+    border-bottom: 1px solid rgb(219, 182, 79);    /*Submenu2*/
+    padding: 0 0px 0px 0px;
+    margin: 10px;
+}
+  
+.features-menu li:last-of-type {
+    border-bottom: none;
+}
+
+.features-menu {
+    display: flex;
+    flex-direction: column;
+    background: #e98a0f;
+    border-radius: 10px;
+    padding-top: 0px;
+    box-sizing: content-box;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.dropdown {
+    position: relative;
+    left: -90px;            /*Posição menu 2.*/
+    right: auto;
+  }
+
+.dropdown > span {
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown:hover .features-menu {
+    display: flex;
+    flex-direction: column;
+    background: #e98a0f;
+
+}
+
+.features-menu {
+    display: none;
+}
+.barra_adicional{
+    position: absolute;
+    top: 0px;
+    left: 1620px;
+
+}
+
+.produtos{
+    display: flex;
+    text-align: center;
+}
+
+#div1{
+    position: absolute;
+    right: 1080px;
+}
+
+#listac{
+    position: absolute;
+    right: 45px;
+    
+}
+
+#quantidade{
+    color: black;
+    width: 70px;
+    height: 37px;
+}
