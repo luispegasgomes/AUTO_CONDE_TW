@@ -68,6 +68,7 @@ a:hover {
     margin-top: 60px;  /* Posição do menu perante o logo. */
     font-family: cursive;
     font-size: large;
+
 }
 
 .menu > li {
@@ -86,6 +87,7 @@ a:hover {
     border-bottom: 1px solid rgb(219, 182, 79);    /*Submenu2*/
     padding: 0 0px 0px 0px;
     margin: 10px;
+    
 }
   
 .features-menu li:last-of-type {
@@ -108,6 +110,7 @@ a:hover {
     position: relative;
     left: -90px;            /*Posição menu 2.*/
     right: auto;
+    
   }
 
 .dropdown > span {
