@@ -134,6 +134,27 @@ a:hover {
 
 .Produtos{
     display: flex;
+<<<<<<< HEAD
+    text-align: center ;
+}
+
+#div1{
+    position: absolute;
+    right: 1080px;
+    
+
+}
+
+#listac{
+    position: relative;
+    left: 45px ;
+    top: 35px;
+    
+}
+
+#quant{
+    color: blue;
+=======
     justify-content: center;
     border: 25px solid #e98a0f;
     border-radius: 25px;
@@ -162,6 +183,7 @@ a:hover {
 }
 
 #add{
+>>>>>>> bda45f3fe92fe8b3902abd87c72742fb54a32858
     width: 70px;
     height: 27px;
     background-color: blue;
