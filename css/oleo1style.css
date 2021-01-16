@@ -138,13 +138,18 @@ a:hover {
 
 }
 
-#div1 {
+#div1 {;
     position: absolute;
     right: 1080px;
     
 }
 
 #div2 {
+    border: 25px solid #e98a0f;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 5px;
+    height: 450px;
     position: relative;
     left: 130px;
     top: 102px;
