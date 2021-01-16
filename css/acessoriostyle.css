@@ -132,26 +132,62 @@ a:hover {
 
 }
 
-.produtos{
+.Produtos{
     display: flex;
-    text-align: right ;
+<<<<<<< HEAD
+    text-align: center ;
 }
 
 #div1{
     position: absolute;
     right: 1080px;
-    text-justify: content;
+    
 
 }
 
 #listac{
-    position: absolute;
-    right: 45px;
+    position: relative;
+    left: 45px ;
+    top: 35px;
     
 }
 
-#quantidade{
+#quant{
     color: blue;
-    width: 70px;
-    height: 37px;
+=======
+    justify-content: center;
+    border: 25px solid #e98a0f;
+    border-radius: 25px;
+    padding: 25px;
+    height: 450px;
+
 }
+
+#div1{
+    position: relative;
+    top: -10px;
+    right: 335px;
+}
+
+#div2{
+    position: relative;
+    top: 90px;
+    right:200px;
+
+}
+
+#quant{
+    color: black;
+    width: 70px;
+    height: 27px;
+}
+
+#add{
+>>>>>>> bda45f3fe92fe8b3902abd87c72742fb54a32858
+    width: 70px;
+    height: 27px;
+    background-color: blue;
+    color: white;
+
+}
+
