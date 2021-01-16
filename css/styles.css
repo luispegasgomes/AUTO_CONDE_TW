@@ -3,25 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    height: 1200px;
-    width: 50%;
-    font-size: 20px;        /* Tamanho e cor menu 2. */   
-    font-family: monospace;
-    color: #000000;
-    position: absolute;
-}
-.container{
-    height: 100%;
+.container {
+    position: static;
     width: 100%;
+    display: flex;
+    padding: 33px;   /* Altura da navbar */
+    background: #e98a0f;
+    justify-content: center;
+
 }
-#logo {
+#logo{
     position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    margin-top: -31px;
+    display: flex;
+    top: 0px;
+    left: 850px;
+    justify-content: center;
+    
+}
+#carrinho{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    left: 1000px;
+}
+#ncliente{
+    height: 60px;
+    width: 180px;
+    position: relative;
+    left: -180px;
 }
 #pesquisa {
     width: 600px;
@@ -41,24 +50,15 @@ body {
     position: absolute;
     left: 620px;
     right: 0;
-
     margin: auto;
     margin-top: 20px;
 
-}
-
-.header {
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 33px;
-    background: #e98a0f;
 }
 a:link,
 a:visited {
     color: #000000;             /*Cor letras menu 2*/
     text-decoration: none;
+    font-family: cursive;
 }
 a:hover {
     text-decoration: underline;
@@ -66,20 +66,16 @@ a:hover {
 
 .menu {
     margin-top: 60px;  /* Posição do menu perante o logo. */
+    font-family: cursive;
+    font-size: large;
 }
 
 .menu > li {
     display: inline;
-    margin-right: 30px;     /* Espaçamento entre menu das peças. */
-}
-
-.menu > li:last-of-type {
-    margin-right: 0;
+    margin-right: 50px;     /* Espaçamento entre menu das peças. */
 }
 
 .features-menu {
-    display: flex;
-    flex-direction: column;
     background: #000000;
     border-radius: 0px;
     padding-top: 0px;
@@ -103,7 +99,6 @@ a:hover {
     border-radius: 10px;
     padding-top: 0px;
     box-sizing: content-box;
-
     position: absolute;
     top: 0px;
     left: 0px;
@@ -111,7 +106,7 @@ a:hover {
 
 .dropdown {
     position: relative;
-    left: -490px;            /*Posição menu 2.*/
+    left: -90px;            /*Posição menu 2.*/
     right: auto;
   }
 
@@ -130,48 +125,9 @@ a:hover {
 .features-menu {
     display: none;
 }
-#login{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-    left: 1500px;
-    right: 0px;
-    font-size: 15px;
-    top: -30px;
-}
-#register{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-    left: 1460px;
-    font-size: 15px;
-    top: -30px;
-}
-#ajuda{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-    left: 1510px;
-    font-size: 15px;
-    top: -30px;
-}
-#contactos{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-    left: 1310px;
-    font-size: 15px;
-    top: -30px;
-}
-#carrinho{
-    height: 60px;
-    width: 60px;
-    position: relative;
-    left: 760px;
+.barra_adicional{
+    position: absolute;
+    top: 0px;
+    left: 1620px;
 
 }
-#ncliente{
-    height: 60px;
-    width: 180px;
-    position: relative;
-    left: -350px;
-}
-  
-
-
