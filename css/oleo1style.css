@@ -134,22 +134,26 @@ a:hover {
 .produtos {
     display: flex;
     justify-content: center;
+   
 }
 
 #div1 {
     position: absolute;
-    right: 1080px;
+    right: 1138px;
+    top: 200px;
 }
 
 #div2 {
     border: 25px solid #e98a0f;
-    border-radius: 25px;
+    border-radius: 20px;
     padding: 25px;
     margin: 5px;
-    height: 450px;
+    width: 650px;
+    height: 390px;
     position: relative;
-    left: 130px;
-    top: 102px;
+    left: 145px;
+    top: 105px;
+    font-size: 12px;
 }
 
 #listac{
