@@ -134,12 +134,14 @@ a:hover {
 
 .produtos{
     display: flex;
-    text-align: center;
+    text-align: right ;
 }
 
 #div1{
     position: absolute;
     right: 1080px;
+    text-justify: content;
+
 }
 
 #listac{
