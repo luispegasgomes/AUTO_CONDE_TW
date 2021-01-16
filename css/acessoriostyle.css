@@ -134,23 +134,24 @@ a:hover {
 
 .produtos{
     display: flex;
-    text-align: right ;
+    text-align: center ;
 }
 
 #div1{
     position: absolute;
     right: 1080px;
-    text-justify: content;
+    
 
 }
 
 #listac{
-    position: absolute;
-    right: 45px;
+    position: relative;
+    left: 45px ;
+    top: 35px;
     
 }
 
-#quantidade{
+#quant{
     color: blue;
     width: 70px;
     height: 37px;
