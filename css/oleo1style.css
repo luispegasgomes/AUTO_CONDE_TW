@@ -108,7 +108,7 @@ a:hover {
     position: relative;
     left: -90px;            /*Posição menu 2.*/
     right: auto;
-  }
+}
 
 .dropdown > span {
     position: relative;
@@ -129,19 +129,16 @@ a:hover {
     position: absolute;
     top: 0px;
     left: 1620px;
-
 }
 
 .produtos {
     display: flex;
     justify-content: center;
-
 }
 
 #div1 {;
     position: absolute;
     right: 1080px;
-    
 }
 
 #div2 {
@@ -153,20 +150,17 @@ a:hover {
     position: relative;
     left: 130px;
     top: 102px;
-
 }
 
 #listac{
     position: relative;
     left: 20px;
     top: 10px;
-
 }
 
 #Preço {
     position: relative;
     top: 45px;
-
 }
 
 #add{
@@ -174,14 +168,12 @@ a:hover {
     color: white;
     width: 125px;
     height: 38px;
-
 }
 
 #quant{
     color: black;
     width: 70px;
     height: 37px;
-
 }
 
 
