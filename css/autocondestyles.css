@@ -131,12 +131,11 @@ a:hover {
 .barra_adicional{
     position: absolute;
     top: 0px;
-    left: 1620px;
+    left: 1610px;
 
 }
 .body{
-    text-align: center;
-    
+    text-align: center;    
 }
 #m_pagamento{
     width: 250px;
@@ -153,7 +152,7 @@ a:hover {
     font-weight: bold;
     color: #000000;
     position: relative;
-    left: -390px;
+    left: -380px;
     z-index: -2;
 }
 #portes{
@@ -169,16 +168,77 @@ a:hover {
     background-color:#e98a0f ;
     border-radius: 20px;
     position: relative;
-    top: -250px;
+    z-index: -2;
+    top: -240px;
     left: -400px;
 }
-.suspenção{
+.suspencao{
     margin: auto;
     width: 200px;
     height:150px;
     background-color:#e98a0f ;
     border-radius: 20px;
     position: relative;
-    top: -50050px;
+    z-index: -2;
+    top: -390px;
+    left: -150px;
+}
+.embraiagem{
+    margin: auto;
+    width: 200px;
+    height:150px;
+    background-color:#e98a0f ;
+    border-radius: 20px;
+    position: relative;
+    z-index: -2;
+    top: -540px;
+    left: 100px;
+}
+.distribuicao{
+    margin: auto;
+    width: 200px;
+    height:150px;
+    background-color:#e98a0f ;
+    border-radius: 20px;
+    position: relative;
+    z-index: -2;
+    top: -520px;
+    left: 100px;
+}
+.refrigeracao{
+    margin: auto;
+    width: 200px;
+    height:150px;
+    background-color:#e98a0f ;
+    border-radius: 20px;
+    position: relative;
+    z-index: -2;
+    top: -670px;
+    left: -150px;
+}
+#titulos{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 2px;
+}
+.categorias{
+    font-size: 14px;
+    font-family: monospace;
+    text-align: left;
+    position: relative;
+    left: 6px;
+    top: 15px;
+}
+.travagem{
+    margin: auto;
+    width: 200px;
+    height:150px;
+    background-color:#e98a0f ;
+    border-radius: 20px;
+    position: relative;
+    z-index: -2;
+    top: -820px;
     left: -400px;
 }
