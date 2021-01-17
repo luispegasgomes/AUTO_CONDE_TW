@@ -80,6 +80,9 @@ a:hover {
     background: #000000;
     border-radius: 0px;
     padding-top: 0px;
+    position: relative;
+    z-index: 2;     /*!!!IMPORTANTE!!!--SOBREPÕE-SE SOBRE O RESTO DA PÁGINA*/
+    
 }
 
 .features-menu li {
@@ -87,7 +90,6 @@ a:hover {
     border-bottom: 1px solid rgb(219, 182, 79);    /*Submenu2*/
     padding: 0 0px 0px 0px;
     margin: 10px;
-    
 }
   
 .features-menu li:last-of-type {
@@ -168,7 +170,6 @@ a:hover {
     background-color:#e98a0f ;
     border-radius: 20px;
     position: relative;
-    z-index: -2;
     top: -240px;
     left: -400px;
 }
@@ -179,7 +180,6 @@ a:hover {
     background-color:#e98a0f ;
     border-radius: 20px;
     position: relative;
-    z-index: -2;
     top: -390px;
     left: -150px;
 }
@@ -190,7 +190,6 @@ a:hover {
     background-color:#e98a0f ;
     border-radius: 20px;
     position: relative;
-    z-index: -2;
     top: -540px;
     left: 100px;
 }
@@ -201,7 +200,6 @@ a:hover {
     background-color:#e98a0f ;
     border-radius: 20px;
     position: relative;
-    z-index: -2;
     top: -520px;
     left: 100px;
 }
@@ -212,9 +210,18 @@ a:hover {
     background-color:#e98a0f ;
     border-radius: 20px;
     position: relative;
-    z-index: -2;
     top: -670px;
     left: -150px;
+}
+.travagem{
+    margin: auto;
+    width: 200px;
+    height:150px;
+    background-color:#e98a0f ;
+    border-radius: 20px;
+    position: relative;
+    top: -820px;
+    left: -400px;
 }
 #titulos{
     font-size: 20px;
@@ -231,14 +238,4 @@ a:hover {
     left: 6px;
     top: 15px;
 }
-.travagem{
-    margin: auto;
-    width: 200px;
-    height:150px;
-    background-color:#e98a0f ;
-    border-radius: 20px;
-    position: relative;
-    z-index: -2;
-    top: -820px;
-    left: -400px;
-}
+
