@@ -238,13 +238,6 @@ a:hover {
     left: 6px;
     top: 15px;
 }
-.fundo{
-    width: 2000px;
-    height: 2000px;
-    position: relative;
-    bottom: 10px;
-    left: 20px;
-}
 #img_pneus{
     position: relative;
     top: -800px;
@@ -256,4 +249,17 @@ a:hover {
     left: 870px;
     width: 90px;
     height: 90px;
+}
+/*.rodape,
+.push {
+  height: 20px;
+  margin-top: -50px;
+}*/
+
+.rodape {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+.fundo{
+    width: 600px;
 }
