@@ -238,4 +238,22 @@ a:hover {
     left: 6px;
     top: 15px;
 }
-
+.fundo{
+    width: 2000px;
+    height: 2000px;
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+}
+#img_pneus{
+    position: relative;
+    top: -800px;
+    left: -50px;
+}
+#camisola{
+    position: relative;
+    top: -1005px;
+    left: 870px;
+    width: 90px;
+    height: 90px;
+}
