@@ -144,7 +144,7 @@ a:hover {
     position: relative;
     height: 200px;
     margin-top: -200px;
-    top: -580px;
+    top: 800px;
     left: 280px;
 }
 #news{
@@ -158,4 +158,32 @@ a:hover {
 #m_pagamento{
     width: 250px;
     height: 170px;
+    position: relative;
+    left: -250px;
+    top: -83px;
+}
+#portes{
+    width: 250px;
+    position: relative;
+    left: -497px;
+    top: 332px;
+}
+.barra_superior{
+    background-color: #f5b25b;
+    width: 740px;
+    height: 60px;
+    position: relative;
+    top: -250px;
+    left: 710px;
+    text-align: left;
+    border-style: groove;
+
+}
+.informaçoes{
+    border-style: groove;
+    width: 735px;
+    height: 500px;
+    position: relative;
+    top: -230px;
+    left: 715px;
 }
