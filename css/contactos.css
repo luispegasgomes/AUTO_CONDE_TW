@@ -145,5 +145,17 @@ a:hover {
     height: 200px;
     margin-top: -200px;
     top: -580px;
-    left: 454px;
+    left: 280px;
+}
+#news{
+    position: relative;
+    left: 590px;
+    top: -260px;
+}
+.corpo_contactos{
+    text-align: center;    
+}
+#m_pagamento{
+    width: 250px;
+    height: 170px;
 }
