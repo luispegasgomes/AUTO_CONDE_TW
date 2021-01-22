@@ -250,16 +250,13 @@ a:hover {
     width: 90px;
     height: 90px;
 }
-/*.rodape,
-.push {
-  height: 20px;
-  margin-top: -50px;
-}*/
 
 .rodape {
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
-.fundo{
-    width: 600px;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+    top: -550px;
+    left: 454px;
 }
+
