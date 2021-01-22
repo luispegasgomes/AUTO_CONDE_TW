@@ -166,17 +166,19 @@ a:hover {
     width: 250px;
     position: relative;
     left: -497px;
-    top: 332px;
+    top: 340px;
 }
 .barra_superior{
-    background-color: #f5b25b;
-    width: 740px;
-    height: 60px;
+    background-color: #f8b358;
+    width: 735px;
+    height: 80px;
     position: relative;
     top: -250px;
     left: 710px;
     text-align: left;
     border-style: groove;
+    font-family: monospace;
+    font-size: 17px;
 
 }
 .informaçoes{
@@ -184,6 +186,44 @@ a:hover {
     width: 735px;
     height: 500px;
     position: relative;
-    top: -230px;
-    left: 715px;
+    top: -245px;
+    left: 710px;
+    /*background-color: #c0c0c0;*/
+}
+#text{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    position: relative;
+    left: 5px;
+
+}
+#cabeçalho{
+    font-family: monospace;
+    font-size: 25px;
+}
+#logo_informaçoes{
+    position: relative;
+    width: 250px;
+    top: 185px;
+    border-radius: 6px;
+    left: 104px;
+
+
+}
+#logo_numero{
+    background-color:#e98a0f;
+    position: relative;
+    border-radius: 8px;
+    width: 210px;
+    top: 100px;
+    left: -130px;
+}
+.serviço{
+    width: 230px;
+    text-align: justify;
+    position: relative;
+    top: -665px;
+    left: 460px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
