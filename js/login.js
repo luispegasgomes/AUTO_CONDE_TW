@@ -1,2 +1,4 @@
-user = document.getElementById('username')
-window.alert('Utilizador logado!')
+function login(){
+    window.alert('Utilizador logado!')
+}
+window.onload = login()
