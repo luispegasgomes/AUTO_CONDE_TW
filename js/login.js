@@ -1,4 +1,4 @@
 function login(){
-    window.alert('Utilizador logado!')
+    window.alert('Início de sessão efetuado com sucesso!')
 }
     

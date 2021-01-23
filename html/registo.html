@@ -10,22 +10,23 @@
 </head>
 
 <body background="../img/wall1.jpg">
+
     <div id="area">
         <a href="autoconde.html">
             <img src="../img/Auto_Conde.png" id="logo">
         </a>
 
-        <form id="log" method="GET" action="login.html">
+        <form id="log" method="GET" action="login.html" onsubmit="return registo()">
             <br><br>
             <label for="conta" id="conta">CRIAR CONTA</label>
             <br><br>
             <div class="name">
                 <label for="name1" id="name1">Nome:</label>
-                <input type="text" name="iname" id="iname">
+                <input type="text" name="iname" id="iname" required>
             </div>
             <div class="apelido">
                 <label for="apelido1" id="apelido1">Apelido:</label>
-                <input type="text" name="iname" id="iname">
+                <input type="text" name="iname" id="iname" required>
             </div>
             <br><br>
             <label for="genero" id=genero>Género:</label>
@@ -35,25 +36,25 @@
                 <label for="female">Feminino</label>
                 <input type="radio" name="sex" value="female">
             </div>
-                <label for="date" id="textobday">Data de Nascimento:</label>
-                <input type="date" name="bday" id="bday">
+            <label for="date" id="textobday">Data de Nascimento:</label>
+            <input type="date" name="bday" id="bday">
             <div class="user">
-                <label for="username">E-mail:</label>
-                <input type="text" name="username" id="username" size="15">
+                <label for="username" id="mail">E-mail:</label>
+                <input type="text" name="username" id="username" size="15" required>
             </div>
             <br>
             <div class="confema">
-                <label for="ce">Confirmar e-mail:</label>
-                <input type="email" name="ce" id="ce" size="15">
+                <label for="ce" id="cmail">Confirmar e-mail:</label>
+                <input type="email" name="ce" id="ce" size="15" required>
             </div>
             <div class="pass">
-                <label for="pw">Password:</label>
-                <input type="password" name="pw" id="pw" size="15">
+                <label for="pw" id="pw">Password:</label>
+                <input type="password" name="pw" id="pw" size="15" required>
 
             </div>
             <div class="confpass">
-                <label for="cpw">Confirmar Password:</label>
-                <input type="password" name="cpw" id="cpw" size="15">
+                <label for="cpw" id="cpw">Confirmar Password:</label>
+                <input type="password" name="cpw" id="cpw" size="15" required>
             </div>
             <div class="terms">
                 Clique para aceitar os nossos termos <input type="checkbox" name="terms" value="accept"><br>
@@ -67,7 +68,7 @@
             <img src="../img/twt.png" id="twt">
         </form>
     </div>
-
+    <script src="../js/registo.js"></script>
 </body>
 
 </html>
