@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -68,6 +68,7 @@ a:hover {
     margin-top: 60px;  /* Posição do menu perante o logo. */
     font-family: cursive;
     font-size: large;
+
 }
 
 .menu > li {
@@ -80,7 +81,8 @@ a:hover {
     border-radius: 0px;
     padding-top: 0px;
     position: relative;
-    z-index: 2; 
+    z-index: 2;     /*!!!IMPORTANTE!!!--SOBREPÕE-SE SOBRE O RESTO DA PÁGINA*/
+    
 }
 
 .features-menu li {
@@ -110,6 +112,7 @@ a:hover {
     position: relative;
     left: -90px;            /*Posição menu 2.*/
     right: auto;
+    
   }
 
 .dropdown > span {
@@ -131,78 +134,4 @@ a:hover {
     position: absolute;
     top: 0px;
     left: 1550px;
-
 }
-
-.Produtos{
-    display: flex;
-    justify-content: center;
-    border: 25px solid #e98a0f;
-    border-radius: 25px;
-    padding: 25px;
-    height: 400px;
-    width: 1030px;
-    align-items: center;
-    position: relative;
-    top: 10px;
-    left: 20px;
-}
-
-#div1{
-    position: relative;
-    right: 20px;
-
-}
-
-#listac{
-    position: relative;
-    left: 45px ;
-    top: 35px;
-    
-}
-
-#quant{
-    color: black;
-    width: 70px;
-    right: 500px;
-}
-<<<<<<< HEAD
-.rodape{
-    clear: both;
-    position: relative;
-    height: 200px;
-    margin-top: -200px;
-    top: 200px;
-    left: 30px;
-}
-
-.Produtos_2{
-    display: flex;
-    justify-content: center;
-    border: 25px solid #e98a0f;
-    border-radius: 25px;
-    padding: 25px;
-    height: 400px;
-    width: 1030px;
-    align-items: center;
-    position: relative;
-    top: 10px;
-    left: 20px;
-}
-
-.Produtos_3{
-    display: flex;
-    justify-content: center;
-    border: 25px solid #e98a0f;
-    border-radius: 25px;
-    padding: 25px;
-    height: 400px;
-    width: 1030px;
-    align-items: center;
-    position: relative;
-    top: 10px;
-    left: 20px;
-}
-=======
-
->>>>>>> c80ee4f50da981fd0a94b427e7fd75c5101d2dca

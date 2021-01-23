@@ -1,4 +1,0 @@
-        <img src="../img/4ebe50e2495b17a79c31e48a0e54883f.png" id="camisola">
-        <a href="#">
-            <img src="../img/destaque_pneus.png" id="img_pneus">
-        </a>
