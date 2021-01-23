@@ -166,6 +166,7 @@ a:hover {
     width: 70px;
     right: 500px;
 }
+<<<<<<< HEAD
 /*---Aqui está a estilização do rodapé para todas as páginas.---*/
 
 .rodape{
@@ -227,6 +228,8 @@ a:hover {
     left: 480px;
 }
 /*---O rodapé termina aqui.---*/
+=======
+>>>>>>> d89974a8e34fc47718b7039531b4b69daa7c658a
 
 .Produtos_2{
     display: flex;
