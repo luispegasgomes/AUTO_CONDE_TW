@@ -139,7 +139,7 @@ a:hover {
 
 #div1 {
     position: absolute;
-    right: 1138px;
+    right: 1025px;
     top: 200px;
 }
 
@@ -151,7 +151,7 @@ a:hover {
     width: 650px;
     height: 390px;
     position: relative;
-    left: 145px;
+    left: 195px;
     top: 105px;
     font-size: 12px;
 }
@@ -179,6 +179,68 @@ a:hover {
     width: 70px;
     height: 37px;
 }
+
+.rodape{
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+    top: 400px;
+    left: 210px;
+}
+
+#news{
+    position: relative;
+    left: 590px;
+    top: -260px;
+}
+#text_descarrega{
+    font-size: 20pt;
+    color: white;
+    position: relative;
+    top: -885px;
+    left: 400px;
+}
+#text_usadas{
+    font-size: 20pt;
+    color: white;
+    position: relative;
+    top: -820px;
+    left: 200px;
+}
+#text_renault{
+    font-size: 22pt;
+    color: white;
+    position: relative;
+    top: -660px;
+    left: -600px;
+    text-align: center;
+}
+#text_peugeot{
+    font-size: 22pt;
+    color: white;
+    position: relative;
+    top: -730px;
+    left: -250px;
+    text-align: center;
+}
+#text_toyota{
+    font-size: 22pt;
+    color: white;
+    position: relative;
+    top: -800px;
+    left: 80px;
+    text-align: center;
+}
+#text_news{
+    font-size: 25pt;
+    color: white;
+    position: relative;
+    top: -430px;
+    left: 480px;
+}
+/*---O rodapé termina aqui.---*/
+
 
 
 
