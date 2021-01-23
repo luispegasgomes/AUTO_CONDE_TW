@@ -166,11 +166,4 @@ a:hover {
     width: 70px;
     right: 200px;
 }
-.rodape{
-    clear: both;
-    position: relative;
-    height: 200px;
-    margin-top: -200px;
-    top: 500px;
-    left: 454px;
-}
+
