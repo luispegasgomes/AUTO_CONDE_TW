@@ -140,17 +140,17 @@ a:hover {
     border: 25px solid #e98a0f;
     border-radius: 25px;
     padding: 25px;
-    height: 300px;
-    width: 800px;
+    height: 400px;
+    width: 1030px;
     align-items: center;
     position: relative;
-    top: 20px;
-    left: 600px;
+    top: 10px;
+    left: 20px;
 }
 
 #div1{
     position: relative;
-    right: 100px;
+    right: 20px;
 
 }
 
@@ -164,13 +164,41 @@ a:hover {
 #quant{
     color: black;
     width: 70px;
-    right: 200px;
+    right: 500px;
 }
 .rodape{
     clear: both;
     position: relative;
     height: 200px;
     margin-top: -200px;
-    top: 500px;
-    left: 454px;
+    top: 200px;
+    left: 30px;
+}
+
+.Produtos_2{
+    display: flex;
+    justify-content: center;
+    border: 25px solid #e98a0f;
+    border-radius: 25px;
+    padding: 25px;
+    height: 400px;
+    width: 1030px;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.Produtos_3{
+    display: flex;
+    justify-content: center;
+    border: 25px solid #e98a0f;
+    border-radius: 25px;
+    padding: 25px;
+    height: 400px;
+    width: 1030px;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    left: 20px;
 }
