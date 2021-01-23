@@ -137,7 +137,7 @@ a:hover {
 .Produtos{
     display: flex;
     justify-content: center;
-    border: 25px solid #e98a0f;
+    border: 15px solid #e98a0f;
     border-radius: 25px;
     padding: 25px;
     height: 400px;
@@ -231,7 +231,7 @@ a:hover {
 .Produtos_2{
     display: flex;
     justify-content: center;
-    border: 25px solid #e98a0f;
+    border: 15px solid #e98a0f;
     border-radius: 25px;
     padding: 25px;
     height: 400px;
@@ -245,7 +245,7 @@ a:hover {
 .Produtos_3{
     display: flex;
     justify-content: center;
-    border: 25px solid #e98a0f;
+    border: 15px solid #e98a0f;
     border-radius: 25px;
     padding: 25px;
     height: 400px;
