@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrinho de compras</title>
-    <link rel="stylesheet" href="../css/carrinho.css">
+    <title>Opinião do utilizador</title>
+    <link rel="stylesheet" href="../css/opiniao.css">
 </head>
 <body>
     <div class="container">
@@ -94,26 +94,24 @@
         </div>
     </div>
 
-    <div class="loja">
-        <div id="colunas">
-            <h1 id="i1">Produto</h1>
-            <h1 id="i2">Quantidade</h1>
-            <h1 id="i3">Preço</h1>
+    <div class="fullpg">
+        <h1 id="avform">Formulario de avaliação</h1>
+        <div id="AV">
+            <p>De o a 5, como é que avalia o nosso site?</p>
+            <input type="number" name="quantity" id="numbav" min="1" max="5">
         </div>
+        <div id="AV2">
+            <p>De o a 5, como é que avalia serviço prestado?</p>
+            <input type="number" name="quantity" id="numbav2" min="1" max="5">
+        </div>
+        <div id="AV3">
+            <h3 id="desc">Dê-nos a sua opinião:</h3>
+        </div>
+        <textarea name="message" rows="10" cols="50" id="OPtext"></textarea>
+        <button type="submit" id="sentFORM">Enviar avaliação</button>
     </div>
+    <div id="fakeBRD"></div>
 
-    <div class="venda1">
-        <div id="primeP">
-            <figure>
-                <img src="../img/castrol.jpg" width='130px' height="130px" alt="CASTROL" id="imgc">
-            </figure>
-            <h3 id="prd1">Oleo lubrificante CASTROL</h3>
-        </div>    
-        <h1 id="qtd1">2</h1>
-        <h1 id="prc1">69,98€</h1>
-    </div>
-
-    <button type="submit" id="paypage" href='pagamento.html'>Finalizar compra</button>
 
     <footer class="rodape">
         <input type="text" id="news">
@@ -126,6 +124,6 @@
         <p id="text_renault">Motor 1.5 Dci 90cv<br>Renault</p>
         <p id="text_peugeot">Caixa de Velocidades<br>1.0 Vti Peugeot</p>
         <p id="text_toyota">Diferencial Toyota<br>Tacoma</p>
-    </footer>
+    </footer> 
 </body>
 </html>
