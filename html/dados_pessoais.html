@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto Conde</title>
     <link rel="icon" type="imagem/png" href="../img/icone.png" />
-    <link rel="stylesheet" href="../css/produtos.css">
+    <link rel="stylesheet" href="../css/conta.css">
 </head>
 
 <body>
@@ -22,7 +22,9 @@
         </a>
         <br>
         <input type="search" name="Pesquisa" id="pesquisa">
-        <button type="submit" id="search">Pesquisar</button>
+        <a href="oleo1.html">
+            <button type="submit" id="search">Pesquisar</button>
+        </a>
         <br>
         <ul class="menu">
             <li class='dropdown'><span>Baterias &#9662;</span>
@@ -49,7 +51,7 @@
                 <ul class='features-menu'>
                     <li><a href='adblue.html'>Adblue</a></li>
                     <li><a href='anticongelante.html'>Anticongelante</a></li>
-                    <li><a href='oleo1.html'>Clássicos</a></li>
+                    <li><a href='oleo_classicos.html'>Clássicos</a></li>
                     <li><a href='#'>Hidráulicos</a></li>
                     <li><a href='agricola.html'>Agrícola</a></li>
                     <li><a href='#'>Transmissões</a></li>
@@ -64,7 +66,7 @@
                     <li><a href='#'>XENON</a></li>
                 </ul>
             </li>
-            <li class="dropdown"><span>Escovas </span>
+            <a href="escovas.html"><li class="dropdown"><span>Escovas </span></a>
 
             </li>
             <li class="dropdown"><span>Aditivos &#9662;</span>
@@ -91,67 +93,34 @@
                 <label for="login">Contactos |</label>
             </a>
             <a href="conta.html">
-                <label for="login">A minha Conta</label>
+                <label for="login">A minha Conta |</label>
+            </a>
+            <a href="#">
+                <label for="login">Opiniões</label>
             </a>
 
         </div>
     </div>
 
-    <div class="Produtos">
-        <div id="div1">
-            <h1>
-                Lubrificantes Auto - Clássicos
-            </h1>
-            <br>
-            <figure>
-
-                <img src="../img/oleo_classicos.jpg" width="220px" height="220px" alt="oleo_classicos">
-
-            </figure>
-        </div>
-        <div id="div2">
-            <h2>
-                <li>LIQUI MOLY Classic HD 20W50 - 5L</li>
-                <li>Marca: LIQUI MOLY</li>
-                <li>Preço: 40.91€</li>
-            </h2>
-            <br>
-            <h1>
-                Quantidade :<input type="number" name="quantity" id="quant" min="1" max="99"> <input type="submit"
-                    value="comprar" href="#" id="add">
-            </h1>
-        </div>
-    </div>
-    </div>
-    <br>
-
-    <div class="Produtos_2">
-        <div id="div3">
-            <h1>Lubrificantes Auto - Clássicos</h1>
-            <br>
-            <figure>
-                <a href="oleo1.html">
-                    <img src="../img/castrol.jpg" width="220px" height="220px" alt="castrol">
-                </a>
-            </figure>
-        </div>
-        <div id="div4">
-            <h2>
-                <li>RENAULT Anticongelante Original Pronto a Usar - 5L</li>
-                <li>Marca: RENAULT</li>
-                <li>Preço: 23.05€</li>
-            </h2>
-            <br>
-            <h1>
-                Quantidade :<input type="number" name="quantity" id="quant" min="1" max="99"> <input type="submit"
-                    value="comprar" href="#" id="add">
-            </h1>
-
-        </div>
+    <div class="dados">
+        <h1>Os Meus dados pessoais</h1>
 
     </div>
+    
+    <form action="post">
+        <div id="alterar"><h1>Alteração de dados pessoais</h1></div>
+        <div class="nom">
+            <label for="Nome">Nome *</label>
+            <input type="nome" name="nome" id="nome" size="15" >
+        </div>
+        <div class="emp">
+            <label for="Empresa">Empresa *</label>
+            <input type="empresa" name="empresa" id="empresa" size="15">
+        </div>
+        <br>
+        <input type="submit" value="GUARDAR" id="button">
 
-
+    </form>
 
     <footer class="rodape">
         <input type="text" id="news">
@@ -164,11 +133,8 @@
         <p id="text_renault">Motor 1.5 Dci 90cv<br>Renault</p>
         <p id="text_peugeot">Caixa de Velocidades<br>1.0 Vti Peugeot</p>
         <p id="text_toyota">Diferencial Toyota<br>Tacoma</p>
-
+        
     </footer>
-
-
-
 
 
 
