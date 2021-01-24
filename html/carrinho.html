@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Conde</title>
-    <link rel="icon" type="imagem/png" href="../img/icone.png" />
-    <link rel="stylesheet" href="../css/pagamento.css">
+    <title>Carrinho de compras</title>
+    <link rel="stylesheet" href="../css/carrinho.css">
 </head>
-
 <body>
-    <script src="../js/pagamento.js"></script>
     <div class="container">
         <a href="autoconde.html">
             <img src="../img/Auto_Conde.png" width='200px' height="50px" id="logo">
@@ -23,9 +19,7 @@
         </a>
         <br>
         <input type="search" name="Pesquisa" id="pesquisa">
-        <a href="oleo1.html">
-            <button type="submit" id="search">Pesquisar</button>
-        </a>
+        <button type="submit" id="search">Pesquisar</button>
         <br>
         <ul class="menu">
             <li class='dropdown'><span>Baterias &#9662;</span>
@@ -52,7 +46,7 @@
                 <ul class='features-menu'>
                     <li><a href='adblue.html'>Adblue</a></li>
                     <li><a href='anticongelante.html'>Anticongelante</a></li>
-                    <li><a href='oleo_classicos.html'>Clássicos</a></li>
+                    <li><a href='oleo1.html'>Clássicos</a></li>
                     <li><a href='#'>Hidráulicos</a></li>
                     <li><a href='agricola.html'>Agrícola</a></li>
                     <li><a href='#'>Transmissões</a></li>
@@ -67,7 +61,7 @@
                     <li><a href='#'>XENON</a></li>
                 </ul>
             </li>
-            <a href="escovas.html"><li class="dropdown"><span>Escovas </span></a>
+            <li class="dropdown"><span>Escovas </span>
 
             </li>
             <li class="dropdown"><span>Aditivos &#9662;</span>
@@ -94,58 +88,44 @@
                 <label for="login">Contactos |</label>
             </a>
             <a href="conta.html">
-                <label for="login">A minha Conta |</label>
-            </a>
-            <a href="#">
-                <label for="login">Opiniões</label>
+                <label for="login">A minha Conta</label>
             </a>
 
         </div>
     </div>
-    <h1 id="cab">Proceda ao pagamento de artigos</h1>
-    <div class="tabela_pagamento">
-        <table border="1">
-            <td colspan="10" id="title">Como pretende fazer o pagamento?</td>
-            <tr>
-                <td><input type="radio" name="rbtn" id="rbtn"></td>
-                <th>Multibanco</th>
-                <th id="text">Este pagamento é imediato e não precisa de confirmação basta efetuar o pagamento da referência MB, que lhe vamos enviar e a sua encomenta entra em processamento imediato. </th>
-                <th id="img"><img src="../img/mb.png" id="mb_image" width="100px"></th>
-            </tr>
-            <tr>
-                <td><input type="radio" name="rbtn" id="rbtn"></td>
-                <th>Pay pal</th>
-                <td id="text">Será reencaminhado para o site de pagamentos paypal com toda a segurança. A confirmação deste pagamento pode levar até 48h.</td>
-                <th id="img"><img src="../img/pay pal.jpg" id="paypal_image" width="100px"></th>
-            </tr>
-            <tr>
-                <td><input type="radio" name="rbtn" id="rbtn"></td>
-                <th>VISA</th>
-                <td id="text">O cartão Visa permite aos seus clientes fazerem pagamentos tanto presencialmente como pela internet. A empresa tem vários tipos de cartões: o Visa débito que se encontra associado à conta à ordem, e cartões de crédito como o Visa crédito ou o Visa pré-pago. </td>
-                <th id="img"><img src="../img/visa.png" id="visa_image" width="100px"></th>
-            </tr>
-        </table>
-    </div>
-    <div class="tabela_preço">
-        <table border="1">
-            <td id="caixa1">Produtos a pagar (2)</td>
-            <tr id="caixa2">
-                <td>Total a pagar:     27,49</td>
-            </tr>
-            <tr id="caixa3">
-                <th>
-                    <img src="../img/verisign_logo.jpg" id="verisign" width="200px">
-                    <br>
-                    <br>
-                    <input type="checkbox" name="terms" id="terms"> Aceito os termos e condições
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <button type="submit" id="btn_encomenda" onclick="return pagamento()">Finalizar a encomenda</button>
-                </th>
-            </tr>
-        </table>
 
+    <div class="loja">
+        <div id="colunas">
+            <h1 id="i1">Produto</h1>
+            <h1 id="i2">Quantidade</h1>
+            <h1 id="i3">Preço</h1>
+        </div>
     </div>
-    <footer id="rodape">&copy; Auto Conde 2020</footer>
+
+    <div class="venda1">
+        <div id="primeP">
+            <figure>
+                <img src="../img/castrol.jpg" width='130px' height="130px" alt="CASTROL" id="imgc">
+            </figure>
+            <h3 id="prd1">Oleo lubrificante CASTROL</h3>
+        </div>    
+        <h1 id="qtd1">2</h1>
+        <h1 id="prc1">69,98€</h1>
+    </div>
+
+    <button type="submit" id="paypage">Finalizar compra</button>
+
+    <footer class="rodape">
+        <input type="text" id="news">
+        <a href="autoconde.html">
+            <img src="../img/Capturar.PNG" id="fundo">
+        </a>
+        <p id="text_descarrega">Descarrega já a nossa App!</p>
+        <p id="text_usadas">Vê aqui algumas das nossas peças usadas!</p>
+        <p id="text_news">Subscreve a nossa newsletter!</p>
+        <p id="text_renault">Motor 1.5 Dci 90cv<br>Renault</p>
+        <p id="text_peugeot">Caixa de Velocidades<br>1.0 Vti Peugeot</p>
+        <p id="text_toyota">Diferencial Toyota<br>Tacoma</p>
+    </footer>
+</body>
+</html>

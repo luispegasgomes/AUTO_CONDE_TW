@@ -68,7 +68,6 @@ a:hover {
     margin-top: 60px;  /* Posição do menu perante o logo. */
     font-family: cursive;
     font-size: large;
-
 }
 
 .menu > li {
@@ -80,9 +79,6 @@ a:hover {
     background: #000000;
     border-radius: 0px;
     padding-top: 0px;
-    position: relative;
-    z-index: 2;     /*!!!IMPORTANTE!!!--SOBREPÕE-SE SOBRE O RESTO DA PÁGINA*/
-    
 }
 
 .features-menu li {
@@ -112,8 +108,7 @@ a:hover {
     position: relative;
     left: -90px;            /*Posição menu 2.*/
     right: auto;
-    
-  }
+}
 
 .dropdown > span {
     position: relative;
@@ -133,77 +128,146 @@ a:hover {
 .barra_adicional{
     position: absolute;
     top: 0px;
-    left: 1460px;
-
-}
-.tabela_pagamento{
-    position: relative;
-    display: flex;
-    top: 50px;
-    left: 420px;
-}
-.tabela_preço{
-    position: relative;
-    top: -510px;
-    left: 1100px;
-    width: 500px;
+    left: 1550px;
 }
 
-#title{
-    height: 40px;
-    font-weight: bold;
-}
-#text{
-    width: 300px;
-    height: 170px;
-    font-weight: normal;
-    text-align: justify;
-    font-size: 16px;
-}
-#rbtn{
-    width: 60px;
-    height: 20px;
-}
-#img{
-    width: 200px;
-}
-
-
-#caixa1{
-    width: 500px;
-    height: 30px;
-
-}
-#caixa2{
-    height: 40px;
-    background-color: rgb(200, 200, 200);
-}
-
-#caixa3{
-    height: 480px;
-}
-#btn_encomenda{
-    background-color: rgb(23, 122, 235);
-    color: white;
-    width: 250px;
-    height: 30px;
-}
-#rodape{
+.rodape{
     clear: both;
     position: relative;
     height: 200px;
     margin-top: -200px;
-    top: -220px;
-    left: 5px;
+    top: 440px;
+    left: 210px;
 }
-#cab{
+
+#news{
     position: relative;
-    left: 420px;
-    top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    border-style: groove;
-    border-radius: 10px;
-    width: 1170px;
+    left: 590px;
+    top: -260px;
+}
+#text_descarrega{
+    font-size: 20pt;
+    color: white;
+    position: relative;
+    top: -885px;
+    left: 400px;
+}
+#text_usadas{
+    font-size: 20pt;
+    color: white;
+    position: relative;
+    top: -820px;
+    left: 200px;
+}
+#text_renault{
+    font-size: 22pt;
+    color: white;
+    position: relative;
+    top: -660px;
+    left: -600px;
     text-align: center;
+}
+#text_peugeot{
+    font-size: 22pt;
+    color: white;
+    position: relative;
+    top: -730px;
+    left: -250px;
+    text-align: center;
+}
+#text_toyota{
+    font-size: 22pt;
+    color: white;
+    position: relative;
+    top: -800px;
+    left: 80px;
+    text-align: center;
+}
+#text_news{
+    font-size: 25pt;
+    color: white;
+    position: relative;
+    top: -430px;
+    left: 480px;
+}
+/*---O rodapé termina aqui.---*/
+
+.loja{
+    display: flex;
+    justify-content: center;
+
+}
+
+#i1{
+    position: relative;
+    left: -560px;
+    top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#i2{
+    position: relative;
+    left: 0px;
+    top: -25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#i3{
+    position: relative;
+    left: 560px;
+    top: -62px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.venda1{
+    position: relative;
+    top: -20px;
+    left: -40px;
+    border: 15px solid #e98a0f;
+    border-radius: 20px;
+    padding: 50px;
+    margin: -10px;
+    width: 1800px;
+    height: 230px;   
+}
+
+#imgc{
+    position: relative;
+    left: 250px;
+    top: -20px;
+}
+
+#prd1{
+    position: relative;
+    font-size:16pt;
+    left: 185px;
+}
+
+#qtd1{
+    position: relative;
+    font-size: 32pt;
+    top: -159px;
+    left: 885px;
+}
+
+#primeP{
+    position: relative;
+    top: -15px;
+}
+
+#prc1{
+    position: relative;
+    font-size: 26pt;
+    top: -209px;
+    left: 1365px;
+}
+
+#paypage{
+    background-color: blue; 
+    color: white;
+    width: 145px;
+    height: 42px;
+    position: relative;
+    top: 40px;
+    left: 830px;
 }
