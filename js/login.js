@@ -1,6 +1,6 @@
 let utilizadores = [
     {"login": "luisgomes", "senha": "gomes"},
-    {"login": "fabiofernades", "senha": "fernades"},
+    {"login": "fabiofernandes", "senha": "fernandes"},
     {"login": "joaosantos", "senha": "santos"},
 ];
 
