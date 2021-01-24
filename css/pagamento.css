@@ -136,3 +136,74 @@ a:hover {
     left: 1460px;
 
 }
+.tabela_pagamento{
+    position: relative;
+    display: flex;
+    top: 50px;
+    left: 420px;
+}
+.tabela_preço{
+    position: relative;
+    top: -510px;
+    left: 1100px;
+    width: 500px;
+}
+
+#title{
+    height: 40px;
+    font-weight: bold;
+}
+#text{
+    width: 300px;
+    height: 170px;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 16px;
+}
+#rbtn{
+    width: 60px;
+    height: 20px;
+}
+#img{
+    width: 200px;
+}
+
+
+#caixa1{
+    width: 500px;
+    height: 30px;
+
+}
+#caixa2{
+    height: 40px;
+    background-color: rgb(200, 200, 200);
+}
+
+#caixa3{
+    height: 480px;
+}
+#btn_encomenda{
+    background-color: rgb(23, 122, 235);
+    color: white;
+    width: 250px;
+    height: 30px;
+}
+#rodape{
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+    top: -220px;
+    left: 5px;
+}
+#cab{
+    position: relative;
+    left: 420px;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-style: groove;
+    border-radius: 10px;
+    width: 1170px;
+    text-align: center;
+}
