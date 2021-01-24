@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: static;
+    width: 100%;
+    display: flex;
+    padding: 33px;   /* Altura da navbar */
+    background: #e98a0f;
+    justify-content: center;
+
+}
+#logo{
+    position: absolute;
+    display: flex;
+    top: 0px;
+    left: 850px;
+    justify-content: center;
+    
+}
+#carrinho{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    left: 1000px;
+}
+#ncliente{
+    height: 60px;
+    width: 180px;
+    position: relative;
+    left: -180px;
+}
+#pesquisa {
+    width: 600px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    right: 90px;
+    margin: auto;
+    margin-top: 20px;
+}
+#search{
+    background-color: blue; 
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: 620px;
+    right: 0;
+    margin: auto;
+    margin-top: 20px;
+
+}
+a:link,
+a:visited {
+    color: #000000;             /*Cor letras menu 2*/
+    text-decoration: none;
+    font-family: cursive;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    margin-top: 60px;  /* Posição do menu perante o logo. */
+    font-family: cursive;
+    font-size: large;
+}
+
+.menu > li {
+    display: inline;
+    margin-right: 50px;     /* Espaçamento entre menu das peças. */
+}
+
+.features-menu {
+    background: #000000;
+    border-radius: 0px;
+    padding-top: 0px;
+}
+
+.features-menu li {
+    list-style: none;
+    border-bottom: 1px solid rgb(219, 182, 79);    /*Submenu2*/
+    padding: 0 0px 0px 0px;
+    margin: 10px;
+}
+  
+.features-menu li:last-of-type {
+    border-bottom: none;
+}
+
+.features-menu {
+    display: flex;
+    flex-direction: column;
+    background: #e98a0f;
+    border-radius: 10px;
+    padding-top: 0px;
+    box-sizing: content-box;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.dropdown {
+    position: relative;
+    left: -90px;            /*Posição menu 2.*/
+    right: auto;
+}
+
+.dropdown > span {
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown:hover .features-menu {
+    display: flex;
+    flex-direction: column;
+    background: #e98a0f;
+
+}
+
+.features-menu {
+    display: none;
+}
+.barra_adicional{
+    position: absolute;
+    top: 0px;
+    left: 1550px;
+}
+
+.rodape{
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+    top: 440px;
+    left: 210px;
+}
+
+#news{
+    position: relative;
+    left: 590px;
+    top: -260px;
+}
+#text_descarrega{
+    font-size: 20pt;
+    color: white;
+    position: relative;
+    top: -885px;
+    left: 400px;
+}
+#text_usadas{
+    font-size: 20pt;
+    color: white;
+    position: relative;
+    top: -820px;
+    left: 200px;
+}
+#text_renault{
+    font-size: 22pt;
+    color: white;
+    position: relative;
+    top: -660px;
+    left: -600px;
+    text-align: center;
+}
+#text_peugeot{
+    font-size: 22pt;
+    color: white;
+    position: relative;
+    top: -730px;
+    left: -250px;
+    text-align: center;
+}
+#text_toyota{
+    font-size: 22pt;
+    color: white;
+    position: relative;
+    top: -800px;
+    left: 80px;
+    text-align: center;
+}
+#text_news{
+    font-size: 25pt;
+    color: white;
+    position: relative;
+    top: -430px;
+    left: 480px;
+}
+/*---O rodapé termina aqui.---*/
+
+.loja{
+    display: flex;
+    justify-content: center;
+
+}
+
+#i1{
+    position: relative;
+    left: -560px;
+    top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#i2{
+    position: relative;
+    left: 0px;
+    top: -25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#i3{
+    position: relative;
+    left: 560px;
+    top: -62px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.venda1{
+    position: relative;
+    top: -20px;
+    left: -40px;
+    border: 15px solid #e98a0f;
+    border-radius: 20px;
+    padding: 50px;
+    margin: -10px;
+    width: 1800px;
+    height: 230px;   
+}
+
+#imgc{
+    position: relative;
+    left: 250px;
+    top: -20px;
+}
+
+#prd1{
+    position: relative;
+    font-size:16pt;
+    left: 185px;
+}
+
+#qtd1{
+    position: relative;
+    font-size: 32pt;
+    top: -159px;
+    left: 885px;
+}
+
+#primeP{
+    position: relative;
+    top: -15px;
+}
+
+#prc1{
+    position: relative;
+    font-size: 26pt;
+    top: -209px;
+    left: 1365px;
+}
+
+#paypage{
+    background-color: blue; 
+    color: white;
+    width: 145px;
+    height: 42px;
+    position: relative;
+    top: 40px;
+    left: 830px;
+}
