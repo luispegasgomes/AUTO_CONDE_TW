@@ -188,3 +188,22 @@ a:hover {
     width: 250px;
     height: 30px;
 }
+#rodape{
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+    top: -220px;
+    left: 5px;
+}
+#cab{
+    position: relative;
+    left: 420px;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-style: groove;
+    border-radius: 10px;
+    width: 1170px;
+    text-align: center;
+}
