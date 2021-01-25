@@ -201,21 +201,21 @@ a:hover {
 
 #i1{
     position: relative;
-    left: -560px;
+    left: -520px;
     top: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #i2{
     position: relative;
-    left: 0px;
+    left: 60px;
     top: -25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #i3{
     position: relative;
-    left: 560px;
+    left: 600px;
     top: -62px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -248,7 +248,7 @@ a:hover {
     position: relative;
     font-size: 32pt;
     top: -159px;
-    left: 900px;
+    left: 910px;
 }
 
 #primeP{
