@@ -152,6 +152,7 @@ a:hover {
 #title{
     height: 40px;
     font-weight: bold;
+    background-color: turquoise;
 }
 #text{
     width: 300px;
@@ -160,19 +161,28 @@ a:hover {
     text-align: justify;
     font-size: 16px;
 }
-#rbtn{
+#rbtn1{
+    width: 60px;
+    height: 20px;
+}
+#rbtn2{
+    width: 60px;
+    height: 20px;
+}
+#rbtn3{
     width: 60px;
     height: 20px;
 }
 #img{
     width: 200px;
+    background-color: wheat;
 }
 
 
 #caixa1{
     width: 500px;
     height: 30px;
-
+    background-color: turquoise;
 }
 #caixa2{
     height: 40px;
@@ -181,6 +191,7 @@ a:hover {
 
 #caixa3{
     height: 480px;
+    background-color: wheat;
 }
 #btn_encomenda{
     background-color: rgb(23, 122, 235);
@@ -191,10 +202,15 @@ a:hover {
 #rodape{
     clear: both;
     position: relative;
-    height: 200px;
+    height: 30px;
+    width: 1900px;
     margin-top: -200px;
     top: -220px;
     left: 5px;
+    background-color: #e98a0f;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
 }
 #cab{
     position: relative;

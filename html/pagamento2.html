@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto Conde</title>
     <link rel="icon" type="imagem/png" href="../img/icone.png" />
-    <link rel="stylesheet" href="../css/pagamento.css">
+    <link rel="stylesheet" href="../css/autocondestyles.css">
 </head>
 
 <body>
-    <script src="../js/java-script.js"></script>
     <div class="container">
         <a href="autoconde.html">
             <img src="../img/Auto_Conde.png" width='200px' height="50px" id="logo">
@@ -102,51 +101,15 @@
 
         </div>
     </div>
+    <div class="pagamento_multibanco">
+        <img src="../img/Mb_pagamento.png" id="img_pagamento">
+        <button type="submit" onclick="return dados_pagamento()" id="btn_dados">Clique aqui para gerar os dados de pagamento</button>
+        <label for="entidade" id="entidade"></label>
+        <br>
+        <br>
+        <label for="referencia" id="referencia"></label>
+        <br>
+        <label for="montante" id="montante"></label>
     </div>
-    <h1 id="cab">Proceda ao pagamento de artigos</h1>
-    <div class="tabela_pagamento">
-        <table border="1">
-            <td colspan="10" id="title">Como pretende fazer o pagamento?</td>
-            <tr>
-                <td><input type="radio" name="rbtn" id="rbtn1"></td>
-                <th>Multibanco</th>
-                <th id="text">Este pagamento é imediato e não precisa de confirmação basta efetuar o pagamento da referência MB, que lhe vamos enviar e a sua encomenta entra em processamento imediato. </th>
-                <th id="img"><img src="../img/mb.png" id="mb_image" width="100px"></th>
-            </tr>
-            <tr>
-                <td><input type="radio" name="rbtn" id="rbtn2"></td>
-                <th>Pay pal</th>
-                <td id="text">Será reencaminhado para o site de pagamentos paypal com toda a segurança. A confirmação deste pagamento pode levar até 48h.</td>
-                <th id="img"><img src="../img/pay pal.jpg" id="paypal_image" width="100px"></th>
-            </tr>
-            <tr>
-                <td><input type="radio" name="rbtn" id="rbtn3"></td>
-                <th>VISA</th>
-                <td id="text">O cartão Visa permite aos seus clientes fazerem pagamentos tanto presencialmente como pela internet. A empresa tem vários tipos de cartões: o Visa débito que se encontra associado à conta à ordem, e cartões de crédito como o Visa crédito ou o Visa pré-pago. </td>
-                <th id="img"><img src="../img/visa.png" id="visa_image" width="100px"></th>
-            </tr>
-        </table>
-    </div>
-    <div class="tabela_preço">
-        <table border="1">
-            <td id="caixa1">Produtos a pagar (2)</td>
-            <tr id="caixa2">
-                <td>Total a pagar:     69,98</td>
-            </tr>
-            <tr id="caixa3">
-                <th>
-                    <img src="../img/verisign_logo.jpg" id="verisign" width="200px">
-                    <br>
-                    <br>
-                    <input type="checkbox" name="terms" id="terms"> Aceito os termos e condições
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <button id="btn_encomenda" onclick="return pagamento()">Finalizar encomenda</button>
-                </th>
-            </tr>
-        </table>
-
-    </div>
-    <footer id="rodape">&copy; Auto Conde 2020</footer>
+    <script src="../js/java-script.js"></script>
+</body>
