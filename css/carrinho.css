@@ -79,6 +79,7 @@ a:hover {
     background: #000000;
     border-radius: 0px;
     padding-top: 0px;
+    z-index: 2;
 }
 
 .features-menu li {
@@ -128,7 +129,7 @@ a:hover {
 .barra_adicional{
     position: absolute;
     top: 0px;
-    left: 1550px;
+    left: 1470px;
 }
 
 .rodape{

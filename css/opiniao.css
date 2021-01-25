@@ -79,6 +79,7 @@ a:hover {
     background: #000000;
     border-radius: 0px;
     padding-top: 0px;
+    z-index: 2;
 }
 
 .features-menu li {

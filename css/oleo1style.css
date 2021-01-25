@@ -102,6 +102,7 @@ a:hover {
     position: absolute;
     top: 0px;
     left: 0px;
+    z-index: 2;
 }
 
 .dropdown {
@@ -128,7 +129,7 @@ a:hover {
 .barra_adicional{
     position: absolute;
     top: 0px;
-    left: 1550px;
+    left: 1470px;
 }
 
 .produtos {
